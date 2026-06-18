@@ -1,1 +1,11 @@
-# tima
+<!DOCTYPE html> <html lang="ru"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Лендинг — Ваш продукт</title> <style> body { margin: 0; font-family: Arial, sans-serif; color: #333; } header { background: #1a73e8; color: #fff; padding: 60px 20px; text-align: center; } header h1 { margin: 0; font-size: 48px; } header p { font-size: 20px; margin-top: 10px; } .cta-btn { background: #fff; color: #1a73e8; padding: 15px 30px; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 20px; } section { padding: 60px 20px; text-align: center; } .features { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; } .feature { max-width: 300px; padding: 20px; border: 1px solid #ddd; border-radius: 8px; } .feature h3 { margin-top: 0; } footer { background: #f5f5f5; padding: 30px; text-align: center; font-size: 14px; } </style> </head> <body>
+
+<header> <h1>Ваш продукт</h1> <p>Короткое и яркое описание, которое привлекает внимание и объясняет ценность.</p> <a href="#form" class="cta-btn">Оставить заявку</a> </header>
+
+<section> <h2>Почему выбирают нас</h2> <div class="features"> <div class="feature"> <h3>Преимущество 1</h3> <p>Краткое описание ключевого преимущества вашего продукта или услуги.</p> </div> <div class="feature"> <h3>Преимущество 2</h3> <p>Пояснение, почему это важно и как помогает клиенту.</p> </div> <div class="feature"> <h3>Преимущество 3</h3> <p>Еще один аргумент в пользу выбора именно вас.</p> </div> </div> </section>
+
+<section id="form"> <h2>Оставьте заявку</h2> <p>Мы свяжемся с вами в ближайшее время.</p> <form> <input type="text" placeholder="Ваше имя" required style="padding:10px; width:250px; margin:5px;"> <br> <input type="tel" placeholder="Телефон" required style="padding:10px; width:250px; margin:5px;"> <br> <button type="submit" style="padding:12px 30px; margin-top:10px; background:#1a73e8; color:#fff; border:none; border-radius:6px; cursor:pointer;">Отправить</button> </form> </section>
+
+<footer> © 2026 Ваш бренд. Все права защищены. </footer>
+
+</body> </html># tima
